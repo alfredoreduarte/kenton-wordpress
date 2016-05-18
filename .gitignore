@@ -37,5 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 #wp template
-node_modules
-bower_components
+themes/kenton/node_modules
+themes/kenton/bower_components
