@@ -1,0 +1,33 @@
+.form-container
+	display: flex
+	flex-direction: column
+	justify-content: space-around
+	flex-grow: 1
+.form-section
+	display
+.form-number
+	width: 70px
+	margin-right: 16px
+.form-step-title
+	margin-bottom: 16px
+.form-field
+	background:
+		color: transparent
+		image: url(./images/bg-form-field.png)
+		repeat: no-repeat
+		position: center
+		size: cover
+	border: none
+	font-family: "Prohibition"
+.fileinput-label
+	position: absolute
+	top: 50%
+	left: 50%
+	+transform(translate(-50%, -50%))
+.date-field
+	&.empty-field:after
+		position: absolute
+		top: 0px
+		left: 20px
+		content: "Fecha del Ticket de compra"
+		font-family: "Prohibition"
