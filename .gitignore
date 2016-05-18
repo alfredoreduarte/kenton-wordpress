@@ -39,7 +39,3 @@ Thumbs.db
 #wp template
 node_modules
 bower_components
-
-#wp uploads
-./uploads
-./upgrade
