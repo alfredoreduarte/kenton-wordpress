@@ -39,3 +39,5 @@ Thumbs.db
 #wp template
 themes/kenton/node_modules
 themes/kenton/bower_components
+
+uploads
