@@ -2,6 +2,8 @@
 /*! Theme Name: Kenton Theme URI: http://kenton.com.py Author: @alfredoreduarte Author URI: http://alfredo.re/ Description: Kenton Bikes Wordpress Theme Version: 1.0 */
 /*! Bootstrap v3.3.6 (http://getbootstrap.com) Copyright 2011-2015 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(node_modules/slick-carousel/slick/slick.css);
+@import url(node_modules/slick-carousel/slick/slick-theme.css);
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
@@ -4276,6 +4278,8 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .thumbnail-post { border: none; }
 
+.thumbnail-post img { max-height: 200px; }
+
 .thumbnail-post .caption { position: relative; margin-top: 15px; }
 
 .thumbnail-post .caption:before { content: ""; height: 1px; width: 58px; background: #FF4A00; display: block; top: 0px; position: absolute; }
@@ -4284,7 +4288,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 @font-face { font-family: "Prohibition"; src: url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.eot"); src: url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.eot?#iefix") format("embedded-opentype"), url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.woff2") format("woff2"), url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.woff") format("woff"), url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.ttf") format("truetype"), url("/fonts/prohibition-rough/f4946a7046de988b81712c4b9a6e1e86.svg#Prohibition W00 Rough") format("svg"); }
 
-.footer { background: url(./images/stripes.png); color: white; padding-top: 40px; padding-bottom: 40px; }
+.footer { background: url(./images/stripes.png); color: white; margin-top: 60px; padding-top: 40px; padding-bottom: 40px; }
 
 .footer a { color: white; }
 
@@ -4299,6 +4303,14 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .fileinput-label { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .date-field.empty-field:after { position: absolute; top: 0px; left: 20px; content: "Fecha del Ticket de compra"; font-family: "Prohibition"; }
+
+.jumbotron-breadcrumb { background: transparent; }
+
+.jumbotron-breadcrumb a { color: white; }
+
+.jumbotron-small { background: url(./images/single-page-header.jpg); background-size: cover; background-repeat: no-repeat; padding: 0px; min-height: 25vh; }
+
+.jumbotron-small-content .jumbotron-small-title { margin-top: 0px; margin-bottom: 0px; }
 
 .jumbotron-main { background: url(./images/background.png); padding-top: 0px; min-height: 90vh; }
 
@@ -4339,6 +4351,14 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .product-tabs.nav > li > a > img { width: 75px; }
 
 .product-tabs-content .thumbnail img { width: 140px; }
+
+.slick-prev:before, .slick-next:before { color: #FF4A00; }
+
+.slick-slide img { margin-left: auto; margin-right: auto; }
+
+.product-slider-main { margin-bottom: 40px; }
+
+.product-slider-nav img { border: 1px solid #eeeeee; }
 
 .title-underlined-semi:after { position: relative; width: 100px; height: 2px; background: #FF4A00; bottom: -5px; content: " "; display: block; }
 
